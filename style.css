@@ -198,3 +198,63 @@ body {
 .brand img {
   height: 33px;
 }
+/* New Arrivals Section */
+.new_arrival {
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 40px;
+}
+.new_arrival h2 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: myExtraBoldFont;
+  margin-bottom: 35px;
+}
+.new_arrival_items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.arrival_tile {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.item > img {
+  width: 295px;
+}
+.new_star {
+  color: #bab1b6;
+}
+.new_star img {
+  height: 15px;
+}
+.new_star span {
+  color: black;
+  font-size: 15px;
+  padding-left: 12px;
+}
+.price_new {
+  font-size: 24px;
+  font-weight: 800;
+}
+.button_container {
+  text-align: center;
+}
+.view_all_button {
+  padding: 16px 54px;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 26px;
+  border-radius: 62px;
+  cursor: pointer;
+  background-color: #f0eeed;
+  border: none;
+  margin-bottom: 29px;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: #f0eeed;
+}
