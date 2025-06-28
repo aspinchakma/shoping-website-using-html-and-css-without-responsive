@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Adding font from file */
+/* satoshi font */
+@font-face {
+  font-family: satoshiFont;
+  src: url(/fonts/Satoshi-Regular.otf);
+}
+/*Intgral CF */
+@font-face {
+  font-family: myBoldFont;
+  src: url(/fonts/Fontspring-DEMO-integralcf-regular.otf);
+}
+@font-face {
+  font-family: myExtraBoldFont;
+  src: url();
+}
+
+.header_top {
+  background-color: black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.header_top > div {
+  width: 85%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 12fr 1fr;
+}
+.header_top > div > p {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-family: satoshiFont;
+}
+.header_top > div > p > a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid white;
+}
+.header_top > div > div {
+  text-align: right;
+}
+.top_img {
+  padding-top: 2px;
+}
+.top_img:hover {
+  cursor: pointer;
+}
+.header_top > div > div img {
+  width: 13.13px;
+  height: 13.13px;
+}
+
+/* Navigation Bar */
+.navigation_bar {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 6fr 5fr 2fr;
+  margin: 0px auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.nav_items {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.nav_items > ul {
+  list-style-type: none;
+  display: inline-block;
+}
+.nav_items > ul li {
+  display: inline-block;
+  padding: 3px 13px;
+  font-size: 20px;
+  font-family: satoshiFont;
+}
+.nav_items > ul > li a {
+  color: black;
+  text-decoration: none;
+}
+.nav_items > h3 {
+  font-family: myBoldFont;
+  margin: auto 0px;
+}
+.navigation_bar h3 > a {
+  font-family: myExtraBoldFont;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 25px;
+  color: black;
+}
+.navigation_bar > div > input {
+  width: 100%;
+  background-color: #f0f0f0;
+  font-size: 17px;
+  padding: 8px;
+  border-radius: 62px;
+  border: none;
+  background-image: url(/Image/search.png);
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-size: 17px;
+  padding-left: 40px;
+  outline: none;
+}
+.nav_image_container {
+  text-align: right;
+}
+.nav_image_container img {
+  width: 23px;
+  height: 23px;
+  padding-top: 4px;
+  margin-left: 10px;
+}
