@@ -16,9 +16,11 @@
 }
 @font-face {
   font-family: myExtraBoldFont;
-  src: url();
+  src: url(/fonts/extrabold.otf);
 }
-
+body {
+  font-family: satoshiFont;
+}
 .header_top {
   background-color: black;
   padding-top: 4px;
@@ -116,4 +118,69 @@
   height: 23px;
   padding-top: 4px;
   margin-left: 10px;
+}
+
+/* Main Section: */
+/* Intro Section */
+.intro {
+  background-image: url(/Image/intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  padding: 100px 0px;
+  background-attachment: fixed;
+}
+.intro_container {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.intro_container h2 {
+  font-size: 64px;
+  font-family: myExtraBoldFont;
+  border: 5px solid red;
+  line-height: 64px;
+  margin-bottom: 26px;
+}
+.intro_container > div > p {
+  font-size: 18px;
+  margin-bottom: 26px;
+  color: #616060;
+}
+.shop_now_button {
+  background-color: black;
+  color: white;
+  border-radius: 62px;
+  padding: 16px 54px;
+  font-size: 16px;
+  border: 1px solid black;
+}
+.shop_now_button:hover {
+  background-color: transparent;
+  color: black;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.intro_paragraph_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 26px;
+}
+.intro_paragraph_container > div {
+  width: 83%;
+  border-right: 2px solid #dad8d9;
+}
+.intro_paragraph_container > div:last-child {
+  border: none;
+}
+.intro_paragraph_container > div > p:first-child {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.intro_paragraph_container > div > p:nth-child(2) {
+  font-size: 16px;
+  color: #616060;
 }
