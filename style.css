@@ -88,6 +88,7 @@ body {
 .nav_items > h3 {
   font-family: myBoldFont;
   margin: auto 0px;
+  margin-top: -3px;
 }
 .navigation_bar h3 > a {
   font-family: myExtraBoldFont;
@@ -126,9 +127,8 @@ body {
   background-image: url(/Image/intro.png);
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
   padding: 100px 0px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 .intro_container {
   width: 90%;
@@ -139,7 +139,6 @@ body {
 .intro_container h2 {
   font-size: 64px;
   font-family: myExtraBoldFont;
-  border: 5px solid red;
   line-height: 64px;
   margin-bottom: 26px;
 }
