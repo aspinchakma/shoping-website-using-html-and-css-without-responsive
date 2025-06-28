@@ -127,7 +127,8 @@ body {
   background-image: url(/Image/intro.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0px;
+  padding: 110px 0px;
+  border: 1px solid black;
   /* background-attachment: fixed; */
 }
 .intro_container {
@@ -182,4 +183,18 @@ body {
 .intro_paragraph_container > div > p:nth-child(2) {
   font-size: 16px;
   color: #616060;
+}
+/* Brands */
+.brands_container {
+  background-color: black;
+  padding: 35px 0px;
+}
+.brands {
+  width: 90%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.brand img {
+  height: 33px;
 }
