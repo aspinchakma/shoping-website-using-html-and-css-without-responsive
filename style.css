@@ -128,7 +128,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 110px 0px;
-  border: 1px solid black;
   /* background-attachment: fixed; */
 }
 .intro_container {
@@ -221,6 +220,9 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+.item {
+  cursor: pointer;
+}
 .item > img {
   width: 295px;
 }
@@ -238,6 +240,23 @@ body {
 .price_new {
   font-size: 24px;
   font-weight: 800;
+  padding: 4px 0px;
+}
+.real_price {
+  color: #f0eeed;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+.discunted {
+  color: red;
+  background-color: #ffebeb;
+  border-radius: 62px;
+  padding: 6px 14px;
+  font-size: 16px;
+  margin: -4px 0px 0px 10px;
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
 }
 .button_container {
   text-align: center;
@@ -251,7 +270,12 @@ body {
   cursor: pointer;
   background-color: #f0eeed;
   border: none;
-  margin-bottom: 29px;
+  margin-bottom: 40px;
+}
+.view_all_button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
 }
 hr {
   border: none;
