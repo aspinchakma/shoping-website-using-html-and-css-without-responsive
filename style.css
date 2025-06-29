@@ -203,7 +203,8 @@ body {
   margin: 0px auto;
   margin-top: 40px;
 }
-.new_arrival h2 {
+.new_arrival h2,
+.explore_section {
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
@@ -281,4 +282,75 @@ hr {
   border: none;
   height: 1px;
   background-color: #f0eeed;
+}
+
+/* Explore section */
+.explore_section {
+  margin-top: 30px;
+  width: 90%;
+  border-radius: 40px;
+  margin: 0px auto;
+  background-color: #f0f0f0;
+}
+.explore_section h2 {
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+
+.explore_section img {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+/* review section */
+.review_container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 300px;
+}
+.review_container h2 {
+  font-family: myExtraBoldFont;
+  font-size: 45px;
+}
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.review {
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+}
+.review_container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.review > img {
+  height: 22px;
+}
+.review > h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.review > h3 > img {
+  height: 20px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  padding-bottom: 4px;
+}
+.review > p {
+  font-size: 18px;
+}
+.review_one {
+  margin-right: 20px;
+  padding: 28px 32px;
+}
+.review_two {
+  margin: 0px 10px;
+  padding: 28px 32px;
+}
+.review_three {
+  margin-left: 20px;
+  padding: 28px 32px;
 }
