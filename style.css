@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
 }
-
+::selection {
+  background-color: green;
+  color: white;
+}
 /* Adding font from file */
 /* satoshi font */
 @font-face {
