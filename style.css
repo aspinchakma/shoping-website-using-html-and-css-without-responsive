@@ -357,7 +357,6 @@ hr {
 
 /* footer Section */
 footer {
-  margin-bottom: 500px;
   position: relative;
   background-color: #f0f0f0;
 }
@@ -450,4 +449,20 @@ footer {
 }
 .about_company_para {
   line-height: 10px;
+}
+.for_horizontal_line {
+  content: "";
+  height: 2px;
+  background-color: #d8d8d8;
+  margin-bottom: 15px;
+}
+.last_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.last_container > p {
+  color: #606060;
+}
+.last_container > div {
+  text-align: right;
 }
