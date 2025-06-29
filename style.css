@@ -306,8 +306,8 @@ hr {
 .review_container {
   width: 90%;
   margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 300px;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 .review_container h2 {
   font-family: myExtraBoldFont;
@@ -353,4 +353,87 @@ hr {
 .review_three {
   margin-left: 20px;
   padding: 28px 32px;
+}
+
+/* Up to date caption */
+.uptodate_container {
+  width: 90%;
+  margin: 0px auto;
+  display: grid;
+  padding: 50px 0px;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+  background-color: black;
+  border-radius: 20px;
+}
+.uptodate_container h2 {
+  font-size: 40px;
+  font-family: myExtraBoldFont;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
+.subscribe {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.subscribe > input {
+  width: 61%;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border-radius: 62px;
+  outline: none;
+  border: none;
+  background-image: url(/Image/message.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 15px center;
+  padding-left: 40px;
+}
+.subscribe > button {
+  width: 70%;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 62px;
+  cursor: pointer;
+}
+
+/* footer Section */
+footer {
+  width: 90%;
+  margin: 0px auto;
+  margin-bottom: 500px;
+}
+
+/* Details Container */
+.details_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.single_container {
+  padding: 20px 40px;
+}
+.details_container ul {
+  list-style-type: none;
+  list-style-position: inside;
+  line-height: 45px;
+}
+
+.single_container h2 {
+  font-size: 30px;
+  font-family: myExtraBoldFont;
+}
+.single_container h2 + p {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 45px;
+}
+.single_container > p {
+  font-size: 18px;
+  font-weight: 900;
+}
+.single_container a {
+  text-decoration: none;
+  color: black;
 }
