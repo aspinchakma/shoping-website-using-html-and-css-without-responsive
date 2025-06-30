@@ -198,6 +198,7 @@
 .more_items_you {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 150px;
 }
 .item_for_you > img {
   width: 94%;
