@@ -1,0 +1,112 @@
+.shirt_details_with_photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+.shirt_image_container_left {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0;
+}
+.big_shirt {
+  padding-right: 45px;
+}
+.big_shirt > img {
+  width: auto;
+  height: 552px;
+}
+.shirt_different_angel_photo img {
+  height: 167px;
+  width: 152px;
+  margin-bottom: 13px;
+}
+.shirt_description_right h2 {
+  font-size: 35px;
+  font-family: myExtraBoldFont;
+}
+.star_with_rating {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.star_with_rating > p > span {
+  color: #969696;
+}
+.price_with_button_discount {
+  font-size: 28px;
+  display: flex;
+}
+.price_with_button_discount > h3 > span {
+  color: #969696;
+  text-decoration: line-through;
+}
+.price_with_button_discount button {
+  padding: 6px 18px;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: #ffebeb;
+  border: none;
+  border-radius: 62px;
+  color: red;
+  font-weight: 700;
+}
+.shirt_details {
+  color: #969696;
+  margin-top: 12px;
+}
+.select_color_shirt {
+  margin-bottom: 12px;
+  color: #969696;
+  font-size: 19px;
+}
+.choose_your_shirt_color img {
+  margin-right: 8px;
+}
+.choose_size_title {
+  color: #969696;
+  margin-bottom: 12px;
+  font-size: 19px;
+}
+
+.choose_your_shirt_size button {
+  padding: 12px 24px;
+  font-size: 17px;
+  border: none;
+  border-radius: 62px;
+  color: #969696;
+  margin-right: 10px;
+}
+.shirt_quanity_and_add_cart_button {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.increase_decrease {
+  border: 1px solid black;
+  text-align: center;
+  padding: 14px 24px;
+  border-radius: 62px;
+  width: 90%;
+  font-size: 22px;
+  border: none;
+}
+.increase_decrease span {
+  margin: 20px;
+  cursor: pointer;
+}
+
+.add_to_cart_button {
+  border: 1px solid black;
+  text-align: center;
+  padding: 14px 24px;
+  border-radius: 62px;
+  font-size: 18px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+.add_to_cart_button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+  cursor: pointer;
+}
