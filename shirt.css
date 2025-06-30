@@ -76,6 +76,10 @@
   color: #969696;
   margin-right: 10px;
 }
+.choose_your_shirt_size button:nth-child(3) {
+  background-color: black;
+  color: white;
+}
 .shirt_quanity_and_add_cart_button {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -169,8 +173,6 @@
 }
 .review_text {
   margin-bottom: 20px;
-}
-.review_image_container img {
 }
 .review_image_container img:last-child {
   cursor: pointer;
