@@ -177,3 +177,33 @@
 .review_image_container img:last-child {
   cursor: pointer;
 }
+
+/* load more reivews button */
+.load_more_btn_parent {
+  text-align: center;
+  margin: 40px auto;
+}
+.load_more_reviews_button {
+  padding: 16px 54px;
+  border: 1px solid #969696;
+  background-color: white;
+  border-radius: 62px;
+}
+.you_might_also_like_title {
+  font-size: 35px;
+  font-family: myExtraBoldFont;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.more_items_you {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.item_for_you > img {
+  width: 94%;
+  cursor: pointer;
+}
+.arrival_tile {
+  margin-top: 10px;
+  margin-bottom: 9px;
+}
