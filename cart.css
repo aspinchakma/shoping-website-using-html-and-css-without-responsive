@@ -1,0 +1,134 @@
+.your_cart_title h2 {
+  font-size: 33px;
+  font-family: myExtraBoldFont;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.check_out_continer {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin-bottom: 160px;
+}
+.left_container_items {
+  border: 2px solid #e5e5e5;
+  border-radius: 20px;
+
+  padding: 20px 15px;
+}
+.leftContainer_item {
+  margin-bottom: 10px;
+  display: flex;
+}
+.description {
+  width: 100%;
+  margin-left: 10px;
+}
+.description h2 {
+  font-size: 20px;
+  font-weight: 900;
+  background-image: url(Image/delete.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: right;
+}
+.description > p > span {
+  color: #666666;
+}
+.price_button_container button {
+  display: block;
+}
+.price_button_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.cart_item_price {
+  font-size: 24px;
+  font-weight: 900;
+}
+.class_item_cart_button {
+  padding: 12px 20px;
+  border-radius: 62px;
+  border: none;
+}
+.class_item_cart_button span {
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+/* right side of container */
+.right_container_checkout {
+  padding: 0px 12px;
+}
+.right_checkout_list {
+  border: 2px solid #e5e5e5;
+  padding: 20px 12px;
+  border-radius: 20px;
+}
+.right_checkout_list_one {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.right_checkout_list_one p {
+  color: #666666;
+}
+.right_checkout_list_one h4 {
+  font-weight: 900;
+}
+
+.go_to_check_out_button {
+  padding: 16px 54px;
+  width: 100%;
+  background-color: black;
+  border: 1px solid black;
+
+  border-radius: 62px;
+  color: white;
+  background-image: url(/Image/next_arro_white.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 304px;
+}
+.go_to_check_out_button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.promod_input_with_apply_button {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.promod_input_with_apply_button input {
+  width: 85%;
+  background-color: #f0f0f0;
+  outline: none;
+  border: none;
+  background-image: url(/Image/cupon.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  border-radius: 62px;
+  background-position-x: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  padding-left: 42px;
+}
+.promod_input_with_apply_button button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 62px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.promod_input_with_apply_button button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+}
